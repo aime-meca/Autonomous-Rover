@@ -1,0 +1,45 @@
+Documentation For motorDrive.py
+Created: 10/30/2024
+By: Leslie B.
+
+Make Sure To Run:
+	source RC/bin/activate
+Before Testing Any PS4 Python Code
+Because it won't register evdev or the controller otherwise
+
+----------------------------------------------------------------
+
+Fri. 10/25/24
+	Created doc
+	Started an outline in comments since I still didn't know how
+to code in Python
+
+Wed. 10/30/24
+	Figured out what pins we will use
+	Looked up how to output values to RPi in Python. Referencing
+an LED light strength code
+	Realized that the test code for IDing controller buttons is
+also in Python and can be used in motorDrive.py too
+	Added in PS4 controller code and if-statements for input
+	GPIO might not work on RPi 5 :skull:
+
+	Next Time:
+	Might need to switch to using lgpio
+	Or link this RPi to GitHub and VSCode
+	Or find another way to get around gpio locks
+
+Fri. 11/01/24
+	Door locked. No work done
+
+Wed. 11/06/24
+	Linked RPi5 to IGVC GitHub
+	Downloaded VSCode
+	Started documentation documents
+	> Not sure what the RC file is in the home directory on the RPi or if it's needed to run the code
+	> Will figure that out next time
+	> Actually, it's in the top instructions (Make Sure To Run: ...) so it's probably necessary
+	Moved RC into PS Controller Code folder
+
+	Next Time:
+	Might need to switch to using lgpio
+	Or find another way to get around gpio locks on RPi5

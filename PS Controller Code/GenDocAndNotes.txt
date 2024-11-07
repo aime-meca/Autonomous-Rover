@@ -1,0 +1,16 @@
+RPi5 Checklist:             Location:
+    RPi5                    AIME Room
+    Monitor                 AIME Room
+    Keyboard                AIME Room
+    HDMI for Monitor        AIME Room
+    HMDI-Micro_USB Dongle   -- (bring or borrow)
+    Power Cord - USB C      --
+        minimum 5V/3A
+        5V/5A recommended
+    Mouse                   Leslie's (remember to bring)
+
+
+Wed. 11/06/2024
+    Connected the RPi5 to the GitHub Autonomous-Rover Repository
+    Created and started this documentation document
+    Made RPi checklist so I can contemplate buying my own dongle and cords to use so I don't have to borrow
