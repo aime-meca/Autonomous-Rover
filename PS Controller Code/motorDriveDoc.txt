@@ -43,3 +43,22 @@ Wed. 11/06/24
 	Next Time:
 	Might need to switch to using lgpio
 	Or find another way to get around gpio locks on RPi5
+
+Wed. 11/13/24
+	Looked into GPIO compatibility
+	Migrating from RPi.GPIO -> gpiozero
+		https://gpiozero.readthedocs.io/en/latest/migrating_from_rpigpio.html
+	lgpio API Reference Code
+		https://rpi-lgpio.readthedocs.io/en/latest/api.html
+
+	Write test copies with:
+	- gpiozero (according to google, this one works)
+	- lgpio (unsure if this one will work) << rPi4 is already using this so see if this one will work first
+		(UNINSTALL RPi.GPIO BEFORE INSTALLING lgpio)
+	- gpiod (unsure if this one will work)
+
+Wed. 12/04/24
+	Rewrote motorDrive.py to use lgpio in motorDriveLgpio.py
+	- seems like all the function names are the same
+	- changed import RPi.GPIO to import lgpio
+	
